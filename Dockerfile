@@ -4,7 +4,7 @@ FROM oznu/homebridge:1.1.3
 RUN apk add --no-cache ffmpeg
 
 # Install homebridge-camera-ffmpeg
-RUN yarn global add homebridge-camera-ffmpeg
+RUN yarn add homebridge-camera-ffmpeg
 
 WORKDIR /homebridge
 VOLUME /homebridge
