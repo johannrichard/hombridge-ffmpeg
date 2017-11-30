@@ -1,4 +1,4 @@
-FROM oznu/homebridge:1.1.3
+FROM oznu/homebridge:latest
 
 # Install latest ffmpeg 
 RUN apk add --no-cache ffmpeg
