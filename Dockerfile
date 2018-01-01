@@ -1,4 +1,4 @@
-FROM oznu/homebridge:latest
+FROM oznu/homebridge:raspberry-pi
 
 # Install latest ffmpeg 
 RUN apk add --no-cache ffmpeg
